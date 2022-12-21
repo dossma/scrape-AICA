@@ -5,42 +5,34 @@ Scraping Aerospace Industries Association of Canada
 This is for educational purpose only. I won't be responsible for any misuse.
 
 ## Motivation
-Get a better, structured overview or do analysis on where the companies operate and in which fields.
+Get a better, structured overview or do analysis on the aerospace industry of Canada.
 
 ## Procedure and result
 
-The webdriver runs headless, which means the browser will actually not be visible. 
-A couple of useful settings have been set:
-- `"javascript.enabled", True`  It is here required that Javascript is enabled.
-- `"permissions.default.image", 2,` No images will be loaded.
-- `"plugin.state.flash", 0` Flash is set deactivated.
-- `"toolkit.telemetry.unified", False` Telemetry is deactivated.
+The program strolls through the AICA members to get their data.
 
 The following data is being extracted and saved into a `csv` spreadsheet:
 - Company name
-- Homepage URL
 - Address
-- Phone and Fax number
-- Product categories (the sub-fields in which they operate)
-- Description (a company's profile description) 
+- Contact details
+- Contact name 1
+- Role of contact name 1
+- Contact name 2
+- Role of contact name 2
+- Homepage URL
 
-<img src="https://github.com/dossma/scrape-AICA/blob/main/screenshot.jpg" width=100% height=100%>
+<img src="https://github.com/dossma/scrape-AICA/blob/main/screenshot.jpg" width=120% height=120%>
 
 ## Get started
 After the development setup has been established (see below), just run it.
 
 ## Development setup
-Prominent required external libraries are
-- Selenium: https://github.com/SeleniumHQ/selenium
-- Geckodriver https://github.com/mozilla/geckodriver
+- Beautiful Soup
 
 __Selenium:__
 ```sh
-pip install selenium
+pip install beautifulsoup4
 ```
-__Geckodriver:__
-Download latest release and put it into your development folder, (i.e. C:/Users/yourUsername/Anaconda3). 
-Make sure this path is set as environmental variable. 
 
 ## Meta
 
