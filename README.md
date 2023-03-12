@@ -27,9 +27,8 @@ The following data is being extracted and saved into a `csv` spreadsheet:
 After the development setup has been established (see below), just run it.
 
 ## Development setup
-- Beautiful Soup
+Beautiful Soup
 
-__Selenium:__
 ```sh
 pip install beautifulsoup4
 ```
