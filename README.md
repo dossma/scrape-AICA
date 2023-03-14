@@ -1,9 +1,6 @@
 # scrape-AICA
 Scraping Aerospace Industries Association of Canada
 
-## Disclaimer
-This is for educational purpose only. I won't be responsible for any misuse.
-
 ## Motivation
 Get a better, structured overview or do analysis on the aerospace industry of Canada.
 
